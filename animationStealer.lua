@@ -88,7 +88,7 @@ local animationtabl = {}
 local player = game:GetService("Players").LocalPlayer
 while true do
 	local localPlayer = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid")
-  local pet = game.Workspace.Pets
+        local pet = game.Workspace.Pets.Dragon
 	if localPlayer or pet then
 		local a = localPlayer:GetPlayingAnimationTracks()
 		for i, track in pairs(a) do
